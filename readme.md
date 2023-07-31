@@ -7,7 +7,7 @@ The goal of this project is to explore and visualize the data to gain insights i
   ## Dataset Description
 The dataset comprises the following features:
 
-1. product_id: Product ID
+1.product_id: Product ID
 2. product_name: Name of the Product
 3. category: Category of the Product
 4. discounted_price: Discounted Price of the Product
