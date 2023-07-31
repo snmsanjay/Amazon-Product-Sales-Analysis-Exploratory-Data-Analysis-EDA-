@@ -5,6 +5,7 @@ This project is an Exploratory Data Analysis (EDA) of Amazon sales data. The dat
 The goal of this project is to explore and visualize the data to gain insights into product sales trends and customer preferences.
 
   ## Dataset Description
+
 The dataset comprises the following features:
 
 1.product_id: Product ID
@@ -24,7 +25,8 @@ The dataset comprises the following features:
 15. img_link: Image Link of the Product
 16. product_link: Official Website Link of the Product
 
-     ## Requirements
+   ## Requirements
+
 1. Python
 2. Pandas
 3. Numpy
