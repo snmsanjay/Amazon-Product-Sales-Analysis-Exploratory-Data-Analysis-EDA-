@@ -25,9 +25,38 @@ The dataset comprises the following features:
 16. product_link: Official Website Link of the Product
 
      ## Requirements
-1.Python
+1. Python
 2. Pandas
 3. Numpy
 4. Matplotlib
 5. Seaborn
+
+ ## Data cleaning and preprocessing 
+1. The dataset is read from a CSV file using Pandas.
+2. Certain characters like ,, ₹, and % are removed from the discounted_price, actual_price, discount_percentage, and rating_count columns to convert them to numeric values.
+3. The rating column contains a character | which is replaced by 4 to convert it to a float.
+4. Duplicated data is checked and removed if present.
+5. The category column is preprocessed to remove extra information and symbols like &.
+
+ ## Exploratory Data analysis
+ The EDA comprises several visualizations to gain insights from the data:
+ *Products Demand in Price Range*: A strip plot showing the demand for products in different price ranges 
+  for each category.
+ *Ratings of Products In Categories*: A box plot showing the distribution of product ratings in different 
+ categories.
+ *Top Discount Percentage Categories*: A bar plot displaying the categories with the highest discount 
+ percentages.
+ *Total Sales of Categories*: A bar plot showing the total sales of products in different categories.
+ *Correlation Matrix*: A heatmap displaying the correlation between different variables in the dataset.
+ *Pairplot*: A pair plot showing the relationships between 'sales', 'actual_price', 'discounted_price', and 
+ 'rating_count'.
+ 
+   ## Conclusion
+  The EDA provides valuable insights into Amazon sales data, including trends in product demand, ratings, 
+  and discounts. The visualizations help understand customer preferences and the performance of different 
+  product categories. Feel free to explore the Jupyter Notebook to dig deeper into the analysis and 
+  customize it according to your requirements.
+
+   ## Acknowledgment 
+  This dataset was sourced from Kaggle. Special thanks to the data provider for sharing the data.
  
