@@ -39,6 +39,7 @@ The dataset comprises the following features:
 5. The category column is preprocessed to remove extra information and symbols like &.
 
  ## Exploratory Data analysis
+
  The EDA comprises several visualizations to gain insights from the data:
  *Products Demand in Price Range*: A strip plot showing the demand for products in different price ranges 
   for each category.
